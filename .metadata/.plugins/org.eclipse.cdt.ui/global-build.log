@@ -1,12 +1,32 @@
-20:46:41 **** Incremental Build of configuration Debug for project BBB_LED_blinky ****
+23:58:42 **** Incremental Build of configuration Debug for project BBB_1602_LCD ****
 make all 
-'Building file: ../src/LED_blinky.c'
+'Building file: ../Drivers/Src/gpio_driver.c'
 'Invoking: Cross GCC Compiler'
-arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LED_blinky.d" -MT"src/LED_blinky.o" -o "src/LED_blinky.o" "../src/LED_blinky.c"
-'Finished building: ../src/LED_blinky.c'
+arm-linux-gnueabihf-gcc -I"C:\Users\Ali\Desktop\BBB_Workspace\BBB_1602_LCD\Drivers\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Drivers/Src/gpio_driver.d" -MT"Drivers/Src/gpio_driver.o" -o "Drivers/Src/gpio_driver.o" "../Drivers/Src/gpio_driver.c"
+'Finished building: ../Drivers/Src/gpio_driver.c'
 ' '
-'Building target: BBB_LED_blinky'
+'Building target: BBB_1602_LCD'
 'Invoking: Cross GCC Linker'
-arm-linux-gnueabihf-gcc  -o "BBB_LED_blinky"  ./src/LED_blinky.o   
-'Finished building target: BBB_LED_blinky'
+arm-linux-gnueabihf-gcc  -o "BBB_1602_LCD"  ./Drivers/Src/gpio_driver.o  ./Core/src/main.o   
+'Finished building target: BBB_1602_LCD'
 ' '
+22:05:16 **** Build of configuration Debug for project BBB_MPU6050 ****
+make all 
+'Building file: ../Core/Src/main.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -I"C:\Users\Ali\Desktop\BBB_Workspace\BBB_MPU6050\Core\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+'Finished building: ../Core/Src/main.c'
+' '
+'Building file: ../Core/Src/mpu6050.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -I"C:\Users\Ali\Desktop\BBB_Workspace\BBB_MPU6050\Core\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Core/Src/mpu6050.d" -MT"Core/Src/mpu6050.o" -o "Core/Src/mpu6050.o" "../Core/Src/mpu6050.c"
+'Finished building: ../Core/Src/mpu6050.c'
+' '
+'Building target: BBB_MPU6050'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "BBB_MPU6050"  ./Core/Src/main.o ./Core/Src/mpu6050.o   
+'Finished building target: BBB_MPU6050'
+' '
+22:15:41 **** Incremental Build of configuration Debug for project BBB_MPU6050 ****
+make all 
+make: `all' için hiçbir þey yapýlmadý.

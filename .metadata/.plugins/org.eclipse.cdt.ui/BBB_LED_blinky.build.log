@@ -1,15 +1,6 @@
-20:46:41 **** Incremental Build of configuration Debug for project BBB_LED_blinky ****
+22:07:06 **** Build of configuration Debug for project BBB_LED_blinky ****
 make all 
-'Building file: ../src/LED_blinky.c'
-'Invoking: Cross GCC Compiler'
-arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LED_blinky.d" -MT"src/LED_blinky.o" -o "src/LED_blinky.o" "../src/LED_blinky.c"
-'Finished building: ../src/LED_blinky.c'
-' '
-'Building target: BBB_LED_blinky'
-'Invoking: Cross GCC Linker'
-arm-linux-gnueabihf-gcc  -o "BBB_LED_blinky"  ./src/LED_blinky.o   
-'Finished building target: BBB_LED_blinky'
-' '
+make: `all' için hiçbir þey yapýlmadý.
 
-20:46:43 Build Finished. 0 errors, 0 warnings. (took 1s.666ms)
+22:07:06 Build Finished. 0 errors, 0 warnings. (took 174ms)
 
